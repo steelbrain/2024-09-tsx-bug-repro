@@ -15,7 +15,7 @@ we get the result as a default export. This shouldn't change based on `package.j
 `tsconfig.json`.
 
 You can see the exported value by running `yarn tsx index.tsx` after installing the dependencies with
-`yarn`.
+`yarn`. The behavior remains unchanged even if you specify `--tsconfig=tsconfig.json`.
 
 # LICENSE
 
